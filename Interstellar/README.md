@@ -21,6 +21,6 @@ python main.py
 ---
 ## Game Environment:
 
-![Interstellar](Images\interstellar.jpg)
+![Interstellar](Images/interstellar.jpg)
 
-![Game Over](Images\game_over.jpg)
+![Game Over](Images/game_over.jpg)
