@@ -1,5 +1,5 @@
 import arcade
-from rocket import Rocket
+from racket import Racket
 from ball import Ball
 
 
@@ -8,8 +8,8 @@ class Game(arcade.Window):
         # Properties
         super().__init__(width = 800, height = 500, title = "Pong 🏓")
         arcade.set_background_color(arcade.color.DARK_GREEN)
-        self.player_1 = Rocket(40, self.height // 2, arcade.color.PINK_SHERBET, "You")
-        self.player_2 = Rocket(self.width - 40, self.height // 2, arcade.color.BABY_BLUE, "AI")
+        self.player_1 = Racket(40, self.height // 2, arcade.color.PINK_SHERBET, "You")
+        self.player_2 = Racket(self.width - 40, self.height // 2, arcade.color.BABY_BLUE, "AI")
         self.ball = Ball(self)
 
     # Methods
