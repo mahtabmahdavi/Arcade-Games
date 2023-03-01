@@ -25,6 +25,6 @@ python main_ai.py
 ---
 ## Game Environment:
 
-![Interstellar](Images/snake.jpg)
+![Snake](Images/snake.jpg)
 
 ![Game Over](Images/game_over.jpg)
